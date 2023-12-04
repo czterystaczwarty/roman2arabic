@@ -16,8 +16,10 @@ export default function Home() {
       setError(null);
       setRoman(romanUppercase);
       setArabic(roman2arabic(romanUppercase));
-    } catch (e) {
-      setError(e.toString());
+    } catch (error) {
+      if (error instanceof Error) {
+        setError(error.toString());
+      }
     }
   };
 
