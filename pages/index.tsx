@@ -37,7 +37,7 @@ export default function Home() {
         <h1 className={styles.title}>Roman to arabic 1.0</h1>
 
         <p className={styles.description}>
-          Alusia aplikacja do zamiany liczb rzymskich na łacińskie
+          Alusia aplikacja do zamiany liczb rzymskich na arabskie
         </p>
 
         <p>
